@@ -1,0 +1,422 @@
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color: #347C17;
+}
+
+/* Global */
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.nowrap {
+display: inline-block;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+.button_1{
+	height:30px;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	font-weight:bold;
+	border-radius:8px;
+	opacity:.7;
+	color:#ffffff;
+	background-color:rgba(37, 65, 23, 1);
+}
+
+.button_2{
+	height:30px;
+	border:0;
+	margin:5px 10px 5px 10px;
+	padding-left:20px;
+	padding-right:20px;
+	font-weight:bold;
+	box-shadow:0px 0px 20px rgb(0,0,0);
+	border-radius:8px;
+}
+.dark{
+	padding:15px;
+	background:#002600;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.security{
+	height:auto;
+	width:200px;
+}
+/* Header */
+header{
+	background:#347C17;
+	color:#ffffff; /*white*/
+	padding-top:10px;
+	min-height:70px;
+	border-bottom:#254117 3px solid; /*Dark forest Green*/
+}
+/*Header links*/
+header a{
+	color:#ffffff; /*white*/
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+	font-size: 120%;
+	text-shadow:0px 0px 20px rgb(0,0,0);
+}
+
+header #branding h1{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+header #branding p{
+	margin:0 0 0 0;
+	padding:0 0 5px 0;
+}
+
+header nav{
+	float:right;
+	margin-top:20px;
+}
+
+header .current a{
+	font-weight:bold;
+	color:#a3e888; /*light cream green*/
+}
+
+header a:hover{
+	font-weight: bold;
+	text-shadow:0px 0px 20px rgb(250,250,.1);
+}
+
+/*Showcase*/
+#showcase{
+	min-height: 400px;
+	background-color:rgba(50, 200, 250,.8);
+	background-image:url('../img/green_earth_1.png');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position:50% 65%;
+	max-width:100%;
+	text-align:center;
+	color::#fffff;; /*white*/
+	border-bottom:#254117 3px solid; /*Dark forest green*/
+}
+
+#showcase h1{
+	font-weight:bold;
+	padding:0;
+	margin-top:150px;
+	font-size:45px;
+	margin-bottom:0px;
+	color:rgb(250,250,250); 
+	text-shadow:0px 0px 20px rgb(0,50,0);
+}
+
+#showcase p{
+	font-size:20px;
+	color:rgb(250,250,250); 
+	text-shadow:0px 0px 20px rgb(0,50,0); 
+	font-weight:bold;
+}
+
+/*scheduling an appointment*/
+#scheduling{
+	padding:0px;
+	background-image:linear-gradient(hsl(147,50%,47%),hsl(147,20%,47%));
+	color:#ffffff; /*white*/
+	border-bottom:#254117 3px solid; /*Dark forest green*/
+	
+}
+
+#scheduling h1{
+	text-align:center;
+	margin:10px 0 10px 0;
+	text-shadow:0px 0px 20px rgb(0,0,0);
+}
+
+#scheduling p{
+	text-align:center;
+}
+#scheduling a{
+	text-align:center;
+	margin: 0 0 10px 0;
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-shadow:0px 0px 20px rgb(0,0,0);
+}
+#scheduling a:hover{
+	color:#ffffff;
+	font-weight: bold;
+	text-shadow:0px 0px 20px rgb(250,250,.1);
+}
+
+#scheduleboxes h1{
+	float: center;
+	padding:10px 10px 10px 10px;
+	text-align:center;
+	background-color:rgba(37, 65, 23, 1);
+	opacity:0.5;
+	color:#ffffff; /*white text*/
+	border-radius:8px;
+}
+	
+#scheduling button_2{
+	
+	float:right;
+	margin-top:20px;
+}
+
+/*Scheduling Showcase*/
+#scheduleshowcase{
+	min-height: 400px;
+	background-image:url('../img/clean_notepad.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position:50% 30%;
+	max-width:100%;
+	color::#ffffff; /*white*/
+	background-color:#ffffff;
+	text-align: center;	
+}
+#scheduleboxes{
+	/*margin-top:50px;*/
+	padding: 20px;
+	text-align:center;
+	/*border-bottom:#254117 3px solid; Dark forest green*/
+}
+#scheduleboxes .box{
+	float:left;
+	margin-bottom:30px;
+	width:55%;
+	column-width: 200px;
+	padding:10px 10px 10px 10px;
+	text-align:center;
+	background-color:rgba(37, 65, 23, 1);
+	opacity:0.5;
+	color:#ffffff; /*white text*/
+	border-radius:8px;
+}
+#scheduleboxes .button_1{
+	float:none;
+	background-color:#ffffff;
+	color:#000000;
+	padding: 5px;
+	padding-bottom:30px;
+	text-shadow:0px -1px 0 #07260c;
+}	
+
+#scheduleboxes .button_1:hover{
+	opacity: 1;
+	background-color: #000000;
+	color:#ffffff;
+}
+
+/*Calendar*/
+#scheduleboxes .calendar{
+	float:right;
+}
+
+/*boxes*/
+#boxes{
+	margin-top:0px;
+	border-bottom:#254117 3px solid; /*Dark forest green*/
+	background-image:linear-gradient(hsl(147,50%,47%),hsl(147,0%,47%));
+}
+#boxes .box{
+	float: left;
+	width: 30%;
+	padding:20px 10px 20px 10px;
+	text-align:center;
+	color:#ffffff;
+}
+
+#boxes .box img{
+	height:100px;
+}
+
+/*sidebar*/
+aside#sidebar{
+	float:right;
+	width:40%;
+	margin-top: 10px;
+	text-align:right;
+}
+	
+/*main-col*/
+#main{
+	width:100%;
+	background-image:url('../img/AlaskanMountainRange.jpg');	
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#main2{
+	width:100%;
+	background-image:radial-gradient(circle,rgb(100,100,200),rgb(100,200,300));	
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+article#main-col{
+	float:center;
+	width:100%;
+	padding:20px 0px 100px 0px;
+	
+}
+article#main-col h1{
+	font-size:200%;
+	color:#ffffff;
+	background-color:rgba(37, 65, 23, .25);
+	opacity:1;
+	margin: 10px 0 0 0;
+	padding: 20px 40px 0px 40px;
+}
+article#main-col p{
+	font-size:180%;
+	color:#ffffff;
+	background-color:rgba(37, 65, 23, .25);
+	opacity:1;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 40px 20px 40px;
+}
+article#main-col figure{
+	font-size:180%;
+	color:#ffffff;
+	background-color:rgba(37, 65, 23, .25);
+	opacity:1;
+	margin: 40px 0px 0px 0px;
+	padding: 20px 40px 300px 40px;
+}
+
+article#main-col img{
+	padding: 5px 5px 5px 5px;
+	width: 40%;
+}
+article#main-col a{
+	text-align:center;
+	margin: 0 0 10px 0;
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-shadow:0px 0px 20px rgb(0,0,0);		
+}	
+/*footer*/
+footer{
+	padding:5px;
+	color:#ffffff;
+	background-color:#002600;
+	text-align:center;
+}
+
+/*Media Quiries*/
+@media (max-width: 1160px){
+	header #branding,
+	header nav,
+	header nav li,
+	#scheduling h1,
+	#scheduling form{
+		float: none;
+		text-align:center;
+		width: 100%
+	}
+	header{
+		padding-bottom:10px;
+	}
+	#scheduling{
+		padding-bottom:0px;
+	}
+@media (max-width: 1225px){
+	#scheduleboxes .box,
+	#scheduleboxes	.calendar{
+		float:none;
+		width:100%
+	}
+}
+@media (max-width:767px){
+	#boxes .box{
+		float: none;
+		text-align:center;
+		width:100%;
+		padding:0 0 0 0;
+	}
+	#boxes{
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	article#main-col h1,
+	article#main-col p{
+		font-size:100%;
+	}
+	article#main-col img{
+		width:100%;
+	}
+	article#main-col figure{
+		padding-bottom:20px;
+}
+@media (max-width:690px){
+	#scheduleshowcase{
+		background-size: auto;
+		background-position:10% 5%;
+		
+	}
+	#scheduleboxes .box{
+		opacity:0.9;
+		background:rgba(37, 65, 23, .3);
+	}
+}
+@media (max-width:550px){
+	#scheduling .button_1,
+	#showcase{
+		margin-top:0px;
+		width:100%;
+		min-height:300px;
+	}
+	header #branding,
+	header a{
+		font-size:80%;
+	}
+	#scheduling h1{
+		font-size:100%;
+	}
+	#scheduling button_2{
+		
+	}
+	#showcase h1{
+		margin-top:100px;
+		font-size:35px;
+		margin-bottom:0px;
+	}
+	.container{
+		width:90%;
+	}
+	header li{
+	padding: 0 10px 0 10px;
+	}
+	article#main-col div#contact{
+	font-size: 80%;
+	}
+}
+
